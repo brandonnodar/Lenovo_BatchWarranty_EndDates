@@ -14,4 +14,4 @@
 </p>
 
 # Purpose
-Automate the lookup process of Lenovo product warranty's end dates.
+Automate the lookup process of Lenovo product warranty's end dates. This allows you to add as many Lenovo product warranties, and gives you the end dates for each warranty all at once.
