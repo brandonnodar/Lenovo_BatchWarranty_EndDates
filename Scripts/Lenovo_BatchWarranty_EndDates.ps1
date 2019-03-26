@@ -1,8 +1,8 @@
 # EDITABLE
 $csvFilePath = "C:\LENOVO_WARRANTIES.csv"
 $excelFilePath = "C:\LENOVO_WARRANTIES.xlsx"
-$nameOfSerialNumbersColumn = "Serial number"
-$excelWriteEndDateRow = 10
+$nameOfSerialNumbersColumn = "Serial Numbers"
+$excelWriteEndDateRow = 2
 $tokenId = "TOKEN_ID"
 
 # Creates a header for authentication for Lenovo API.
