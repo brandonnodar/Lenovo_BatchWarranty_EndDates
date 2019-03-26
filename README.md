@@ -53,3 +53,7 @@ Edit these variables.
 # From Step 1.
 (string) $tokenID
 ```
+
+Once these steps are complete, you can run the program.
+
+## Example Output
