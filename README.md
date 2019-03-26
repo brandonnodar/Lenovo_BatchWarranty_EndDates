@@ -30,7 +30,7 @@ Add your list of warranties to a .xlsx file. You can create one in Excel, Google
 *Make sure you add in a column name so it can be searched by the script. It should look like this:*
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/tinyqubit/Lenovo_BatchWarranty_EndDates/master/Images/example_1.png" alt="Reddit" width="300">
+<img src="https://raw.githubusercontent.com/tinyqubit/Lenovo_BatchWarranty_EndDates/master/Images/example_2.png" alt="Reddit" width="300">
 </p>
 
 **Step 3**:
