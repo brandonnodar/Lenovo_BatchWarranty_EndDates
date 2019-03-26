@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/tinyqubit/Lenovo_BatchWarranty_EndDates/master/Images/lenovo_logo.png" alt="Reddit" width="200">
+  <img src="https://raw.githubusercontent.com/tinyqubit/Lenovo_BatchWarranty_EndDates/master/Images/lenovo_logo.png" alt="Reddit" width="500">
   </br>
   Lenovo: Warranty Batch End Dates Lookup
   <br>
