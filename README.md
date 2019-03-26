@@ -29,9 +29,6 @@ $TokenID = "TOKEN_ID"
 Add your list of warranties to a .xlsx file. You can create one in Excel, Google Sheets, or Apple Numbers by exporting the file to a .xlsx file. We will be using this file to write the end dates to.
 *Make sure you add in a column name so it can be searched by the script. It should look like this:*
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/tinyqubit/Lenovo_BatchWarranty_EndDates/master/Images/example_1.png" alt="Reddit" width="700">
-</p>
 
 **Step 3**:
 Export the same file to a .csv. This will be used to gather all the warranties. Make sure both files use the same name.
