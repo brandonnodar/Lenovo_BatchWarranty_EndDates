@@ -60,3 +60,6 @@ Once these steps are complete, you can run the program.
 <p align="center">
 <img src="https://raw.githubusercontent.com/tinyqubit/Lenovo_BatchWarranty_EndDates/master/Images/example_4.png" alt="Reddit" width="300">
 </p>
+
+## Future Features
+- Add .csv functionality for everything, without relying on .xlsx (excel) file.
