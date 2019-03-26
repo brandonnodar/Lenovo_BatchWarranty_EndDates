@@ -8,8 +8,7 @@
 
 <p align="center">
   <a href="#instructions">Instructions</a> •
-  <a href="#instructions-getting-started">Getting Started</a> •
-  <a href="#instructions-subreddit_onlineusers_collector_py">Online Users</a> •
+  <a href="#example-output">Example Output</a> •
   <a href="#future-features">Future Features</a>
 </p>
 
