@@ -57,6 +57,4 @@ Edit these variables.
 Once these steps are complete, you can run the program.
 
 ## Example Output
-<p align="center">
-<img src="https://raw.githubusercontent.com/tinyqubit/Lenovo_BatchWarranty_EndDates/master/Images/example_3.png" alt="Reddit" width="300">
-</p>
+
