@@ -1,21 +1,21 @@
 # EDITABLE
-$filePath = "C:\LENOVO_WARRANTIES.csv"
-$nameOfSerialNumbersRow = "Serial number"
+$csvFilePath = "C:\LENOVO_WARRANTIES.csv"
+$excelFilePath = "C:\LENOVO_WARRANTIES.xlsx"
+$nameOfSerialNumbersColumn = "Serial number"
 $excelWriteEndDateRow = 10
-$TokenId = "TOKEN_ID"
+$tokenId = "TOKEN_ID"
 
 # Creates a header for authentication for Lenovo API.
 $Headers = @{}
-$Headers.Add("ClientID", "$($TokenID)")
+$Headers.Add("ClientID", "$($tokenId)")
 $Headers.Add("accept", "application/json")
 $Headers.Add("content-type", "application/json")
 
-$serialNum = Import-Csv $filePath | Select-Object -ExpandProperty $nameOfSerialNumbersRow
+$serialNum = Import-Csv $csvFilePath | Select-Object -ExpandProperty $nameOfSerialNumbersColumn
 
-# Grab and setup excel file for adding end dates.
-$excelFile = "C:\alm_hardware.xlsx"
+# Setup excel file for adding end dates.
 $excel =  New-Object -ComObject excel.application
-$workbook = $excel.Workbooks.Open($excelFile)
+$workbook = $excel.Workbooks.Open($excelFilePath)
 $excel.DisplayAlerts = $false
 $Data = $workbook.Worksheets.Item(1)
 $Data.Name = 'Sheet1'
@@ -46,5 +46,5 @@ for ($i = 0; $i -lt $serialNum.Count; $i++)
 # Format, save and quit the excel document.
 $usedRange = $Data.UsedRange                                                                        
 $usedRange.EntireColumn.AutoFit() | Out-Null
-$workbook.SaveAs($excelFile)
+$workbook.SaveAs($excelFilePath)
 $excel.Quit()
