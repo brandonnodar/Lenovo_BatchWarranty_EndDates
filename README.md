@@ -5,4 +5,13 @@
   Lenovo: Warranty Batch End Dates Lookup
   <br>
 </h1>
-Uses a batch of Lenovo product warranties you provide, and gives you the end dates for each product's warranty.
+
+<p align="center">
+  <a href="#instructions">Instructions</a> •
+  <a href="#instructions-getting-started">Getting Started</a> •
+  <a href="#instructions-subreddit_onlineusers_collector_py">Online Users</a> •
+  <a href="#future-features">Future Features</a>
+</p>
+
+# Purpose
+Automate the lookup process of Lenovo product warranty's end dates.
